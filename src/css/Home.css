@@ -1,0 +1,80 @@
+
+/* ================================  cards below slider ======================= */
+img{
+    overflow: hidden;
+  }
+  
+  .image img:hover{
+    -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  transition: 1000ms;
+  
+}
+
+   .imagebtn button{
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+  }
+/* --------------------- line in featured products ==================== */
+  .title-divider {
+    display: block;
+    max-width: 50px;
+    height: 2px;
+    background: rgba(233, 102, 49, 1);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ========================== change image on hover ====================== */
+
+.img{
+  position:relative;
+}
+
+.hover_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.img:hover .hover_img {
+  display: inline;
+}
+
+/* ====================== input field for quantity ====================== */
+
+.quantity input:focus{
+  outline: none;
+}
+
+/* ====================== unstitch button ==================== */
+.shop_btn button{
+  position: relative;
+}
+
+.shop_btn .btn {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border: 2px solid white;
+  cursor: pointer;
+  color: white;
+  transition: all .4s linear;
+border-radius: 0;
+}
+
+.shop_btn .btn:hover {
+  color: black;
+  background-color: white;
+}
+

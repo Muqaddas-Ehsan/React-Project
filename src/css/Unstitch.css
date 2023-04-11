@@ -1,0 +1,45 @@
+/* ========================== change image on hover ====================== */
+
+.img{
+    position:relative;
+  }
+  
+  .hover_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  
+  .img:hover .hover_img {
+    display: inline;
+  }
+
+  /* =================== button on hover ================== */
+
+  .img .add{
+    background-color: rgba(0, 0, 0);
+    border-radius: 0;
+    padding-left: 115px;
+    padding-right: 115px;
+    position: absolute;
+    left: 0px;
+    bottom: -40px;
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .img:hover .add{
+    bottom: 0px;
+    opacity: 1;
+  }
+
+  /* ==================== unstitch button ================== */
+  .btn{
+    border: 1px solid gray;
+  }
+
+  .small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}

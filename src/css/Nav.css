@@ -1,0 +1,47 @@
+body{
+    background-color: #F4F4F4;
+  }
+
+.enter input:hover{
+    border-color: red;
+}
+
+.enter button{
+    background-color: #333333;    
+}
+
+.btn1 button{
+    background-color: #333333;    
+}
+.btn1 button:hover{
+    background-color: rgba(201, 9, 9, 1);
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    z-index: 1;
+  }
+
+  .dropdown-content Link:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgba(201, 9, 9, 1);
+
+}
+
+a i:hover{
+    color: rgba(201, 9, 9, 1);
+
+}
+
+
+

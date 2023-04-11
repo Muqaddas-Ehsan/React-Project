@@ -1,0 +1,35 @@
+/* ========================== change image on hover ====================== */
+
+.img{
+    position:relative;
+  }
+  
+  .hover_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  
+  .img:hover .hover_img {
+    display: inline;
+  }
+
+  /* =================== button on hover ================== */
+
+  .img .add{
+    background-color: rgba(0, 0, 0);
+    border-radius: 0;
+    padding-left: 137px;
+    padding-right: 137px;
+    position: absolute;
+    left: 0px;
+    bottom: -40px;
+    opacity: 0;
+    transition: 0.4s;
+  }
+
+  .img:hover .add{
+    bottom: 0px;
+    opacity: 1;
+  }
